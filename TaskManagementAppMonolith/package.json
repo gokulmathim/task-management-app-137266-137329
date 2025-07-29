@@ -11,7 +11,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "backend": "node server/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +31,11 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3"
+  },
+  "backendDependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4"
   }
 }
